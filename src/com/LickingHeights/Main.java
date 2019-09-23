@@ -18,6 +18,7 @@ public class Main {
     System.out.print("Next, what is your weight. (In pounds please.) ");
     pounds = keyboard.nextInt();
     kilograms = pounds*0.453592;
+    BMI = kilograms/(meters*meters);
     
 
 
