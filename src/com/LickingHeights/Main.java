@@ -13,6 +13,8 @@ public class Main {
         Scanner keyboard;
     keyboard = new Scanner(System.in);
     System.out.print("I am going to be calculating your BMI. What is your height.(inches please)");
+    inches = keyboard.nextInt();
+    meters = inches*0.0254;
     
 
 
