@@ -19,9 +19,6 @@ public class Main {
     pounds = keyboard.nextInt();
     kilograms = pounds*0.453592;
     BMI = kilograms/(meters*meters);
-    
-
-
-
+    System.out.println( BMI+ " This is your BMI, hope you liked your results! ");
     }
 }
