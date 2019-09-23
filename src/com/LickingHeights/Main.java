@@ -16,6 +16,9 @@ public class Main {
     inches = keyboard.nextInt();
     meters = inches*0.0254;
     System.out.print("Next, what is your weight. (In pounds please.) ");
+    pounds = keyboard.nextInt();
+    kilograms = pounds*0.453592;
+    
 
 
 
