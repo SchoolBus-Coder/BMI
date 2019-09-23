@@ -15,7 +15,7 @@ public class Main {
     System.out.print("I am going to be calculating your BMI. What is your height.(inches please)");
     inches = keyboard.nextInt();
     meters = inches*0.0254;
-    
+    System.out.print("Next, what is your weight. (In pounds please.) ");
 
 
 
